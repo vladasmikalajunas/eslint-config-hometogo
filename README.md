@@ -1,1 +1,1 @@
-# eslint-config-htg
+# eslint-config-hometogo
