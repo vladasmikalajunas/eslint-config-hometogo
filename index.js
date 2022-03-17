@@ -12,7 +12,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
     ],
-    plugins: ['prettier', 'babel', 'react-hooks'],
+    plugins: ['prettier', 'babel', 'deprecate', 'react-hooks'],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
