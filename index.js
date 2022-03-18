@@ -12,7 +12,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
     ],
-    plugins: ['prettier', 'babel', 'deprecate', 'react-hooks'],
+    plugins: ['prettier', 'babel', 'react-hooks'],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
@@ -95,6 +95,9 @@ module.exports = {
     settings: {
         react: {
             version: 'detect',
+        },
+        'import/parsers': {
+            [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
         },
     },
 }
