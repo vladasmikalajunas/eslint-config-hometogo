@@ -90,7 +90,7 @@ module.exports = {
         'import/no-duplicates': 'off',
         'import/no-deprecated': 'warn',
         'import/no-extraneous-dependencies': 'warn',
-        'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
+        'prettier/prettier': ['warn', { "singleQuote": true, "quoteProps": "consistent" }, { usePrettierrc: false }],
     },
     settings: {
         react: {
