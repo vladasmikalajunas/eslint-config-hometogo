@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hometogo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint configuration used by HomeToGo",
   "main": "index.js",
   "license": "MIT",
@@ -14,10 +14,10 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.6.1"
   },
   "peerDependencies": {
-    "eslint": "^7.12.0",
-    "prettier": "^2.2.0"
+    "eslint": "^7.12.0"
   }
 }
