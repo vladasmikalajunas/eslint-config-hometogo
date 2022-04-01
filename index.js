@@ -67,6 +67,7 @@ module.exports = {
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/prefer-as-const': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/consistent-type-imports': ['error'],
 
         complexity: ['warn', 35], // TODO: set to 25
         'babel/no-invalid-this': 'warn',
