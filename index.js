@@ -82,7 +82,7 @@ module.exports = {
         'no-unused-expressions': ['warn', { allowShortCircuit: true, allowTernary: true }],
         'no-empty-pattern': 'warn',
         'no-fallthrough': 'warn',
-        'no-shadow': 'warn', // 117 errors
+        'no-shadow': 'warn',
 
         'react/jsx-no-bind': 'off',
         'react/jsx-boolean-value': 'off',
@@ -105,8 +105,7 @@ module.exports = {
 
         'etc/no-assign-mutated-array': 'warn',
         'etc/no-implicit-any-catch': 'warn',
-        'etc/no-misused-generics': 'warn', // shows where generics do not infer anything and can be removed
-        'etc/no-t': 'warn', // many errors
+        'etc/no-misused-generics': 'warn',
     },
     settings: {
         react: {
