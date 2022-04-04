@@ -19,6 +19,7 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
+        project: './tsconfig.json',
     },
     rules: {
         '@typescript-eslint/no-unused-vars': [
@@ -77,6 +78,11 @@ module.exports = {
         'object-shorthand': ['warn', 'properties'],
         'one-var': 'off',
         'prefer-rest-params': 'warn',
+        'array-callback-return': 'warn',
+        'no-unused-expressions': ['warn', { allowShortCircuit: true, allowTernary: true }],
+        'no-empty-pattern': 'warn',
+        'no-fallthrough': 'warn',
+        'no-shadow': 'warn', // 117 errors
 
         'react/jsx-no-bind': 'off',
         'react/jsx-boolean-value': 'off',
@@ -96,6 +102,11 @@ module.exports = {
             "quoteProps": "consistent",
             "printWidth": 100
         }, { usePrettierrc: false }],
+
+        'etc/no-assign-mutated-array': 'warn',
+        'etc/no-implicit-any-catch': 'warn',
+        'etc/no-misused-generics': 'warn', // shows where generics do not infer anything and can be removed
+        'etc/no-t': 'warn', // many errors
     },
     settings: {
         react: {
