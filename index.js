@@ -12,7 +12,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
     ],
-    plugins: ['prettier', 'babel', 'react-hooks'],
+    plugins: ['prettier', 'babel', 'react-hooks', 'etc'],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
@@ -105,7 +105,6 @@ module.exports = {
 
         'etc/no-assign-mutated-array': 'warn',
         'etc/no-implicit-any-catch': 'warn',
-        'etc/no-misused-generics': 'warn',
     },
     settings: {
         react: {
