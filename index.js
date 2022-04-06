@@ -11,6 +11,8 @@ module.exports = {
         'plugin:import/typescript',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
     ],
     plugins: ['prettier', 'babel', 'react-hooks'],
     parserOptions: {
@@ -82,6 +84,14 @@ module.exports = {
         'no-unused-expressions': ['warn', { allowShortCircuit: true, allowTernary: true }],
         'no-empty-pattern': 'warn',
         'no-fallthrough': 'warn',
+        'no-unused-vars': 'off',
+        'no-irregular-whitespace': 'warn',
+        'no-empty': ['warn', { allowEmptyCatch: true }],
+        'no-extra-boolean-cast': 'warn',
+        'no-case-declarations': 'warn',
+        'no-useless-escape': 'warn',
+        'no-async-promise-executor': 'warn',
+        'no-prototype-builtins': 'warn',
 
         'react/jsx-no-bind': 'off',
         'react/jsx-boolean-value': 'off',
