@@ -104,7 +104,6 @@ module.exports = {
         }, { usePrettierrc: false }],
 
         'etc/no-assign-mutated-array': 'warn',
-        'etc/no-implicit-any-catch': 'warn',
     },
     settings: {
         react: {
