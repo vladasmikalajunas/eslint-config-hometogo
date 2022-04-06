@@ -19,8 +19,15 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
-        project: './tsconfig.json',
     },
+    overrides: [
+        {
+            files: ['*.ts', '*.tsx'],
+            parserOptions: {
+                project: ['./tsconfig.json'],
+            },
+        },
+    ],
     rules: {
         '@typescript-eslint/no-unused-vars': [
             'warn',
