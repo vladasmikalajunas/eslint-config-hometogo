@@ -70,7 +70,7 @@ module.exports = {
         '@typescript-eslint/prefer-as-const': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/consistent-type-imports': 'warn',
-        '@typescript-eslint/no-shadow': 'warn',
+        '@typescript-eslint/no-shadow': 'error',
 
         complexity: ['warn', 35], // TODO: set to 25
         'babel/no-invalid-this': 'warn',
