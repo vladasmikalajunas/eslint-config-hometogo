@@ -12,7 +12,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
     ],
-    plugins: ['prettier', 'babel', 'react-hooks', 'etc'],
+    plugins: ['prettier', 'babel', 'react-hooks'],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
@@ -109,8 +109,6 @@ module.exports = {
             "quoteProps": "consistent",
             "printWidth": 100
         }, { usePrettierrc: false }],
-
-        'etc/no-assign-mutated-array': 'warn',
     },
     settings: {
         react: {
