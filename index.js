@@ -98,6 +98,7 @@ module.exports = {
         'import/no-duplicates': 'off',
         'import/no-deprecated': 'warn',
         'import/no-extraneous-dependencies': 'warn',
+        'import/no-default-export': 'error',
         'prettier/prettier': ['warn', {
             "singleQuote": true,
             "quoteProps": "consistent",
