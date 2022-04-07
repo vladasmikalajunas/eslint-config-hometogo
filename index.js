@@ -85,6 +85,7 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-empty': ['error', { allowEmptyCatch: true }],
         'no-undef': 'off',
+        'no-prototype-builtins': 'off',
 
         'react/jsx-no-bind': 'off',
         'react/jsx-boolean-value': 'off',
