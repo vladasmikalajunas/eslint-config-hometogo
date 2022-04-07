@@ -84,6 +84,7 @@ module.exports = {
         'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
         'no-unused-vars': 'off',
         'no-empty': ['error', { allowEmptyCatch: true }],
+        'no-undef': 'off',
 
         'react/jsx-no-bind': 'off',
         'react/jsx-boolean-value': 'off',
