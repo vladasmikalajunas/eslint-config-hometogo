@@ -11,6 +11,8 @@ module.exports = {
         'plugin:import/typescript',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
     ],
     plugins: ['prettier', 'babel', 'react-hooks'],
     parserOptions: {
@@ -68,6 +70,7 @@ module.exports = {
         '@typescript-eslint/prefer-as-const': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/consistent-type-imports': 'warn',
+        '@typescript-eslint/no-shadow': 'error',
 
         complexity: ['warn', 35], // TODO: set to 25
         'babel/no-invalid-this': 'warn',
@@ -77,6 +80,10 @@ module.exports = {
         'object-shorthand': ['warn', 'properties'],
         'one-var': 'off',
         'prefer-rest-params': 'warn',
+        'array-callback-return': 'error',
+        'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
+        'no-unused-vars': 'off',
+        'no-empty': ['error', { allowEmptyCatch: true }],
 
         'react/jsx-no-bind': 'off',
         'react/jsx-boolean-value': 'off',
@@ -91,6 +98,7 @@ module.exports = {
         'import/no-duplicates': 'off',
         'import/no-deprecated': 'warn',
         'import/no-extraneous-dependencies': 'warn',
+        'import/no-default-export': 'error',
         'prettier/prettier': ['warn', {
             "singleQuote": true,
             "quoteProps": "consistent",
