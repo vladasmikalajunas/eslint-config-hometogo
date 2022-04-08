@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hometogo",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "ESLint configuration used by HomeToGo",
   "main": "index.js",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "@typescript-eslint/parser": "^4.17.0",
     "eslint-config-prettier": "^6.14.0",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-htg": "git+https://github.com/vladasmikalajunas/eslint-plugin-htg.git#v1.5.0",
+    "eslint-plugin-htg": "git+https://github.com/vladasmikalajunas/eslint-plugin-htg.git#v1.5.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
