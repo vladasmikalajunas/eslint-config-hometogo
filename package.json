@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hometogo",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "ESLint configuration used by HomeToGo",
   "main": "index.js",
   "license": "MIT",
