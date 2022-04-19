@@ -101,6 +101,7 @@ module.exports = {
         'import/no-deprecated': 'warn',
         'import/no-extraneous-dependencies': 'warn',
         'import/no-default-export': 'error',
+        'import/order': 'warn',
         'prettier/prettier': ['warn', {
             "singleQuote": true,
             "quoteProps": "consistent",
