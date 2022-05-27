@@ -97,7 +97,6 @@ module.exports = {
         'react/jsx-no-target-blank': 'off',
         'react/jsx-key': 'warn',
 
-        'import/no-duplicates': 'off',
         'import/no-deprecated': 'warn',
         'import/no-extraneous-dependencies': 'warn',
         'import/no-default-export': 'error',
